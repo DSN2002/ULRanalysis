@@ -1,5 +1,5 @@
 #!/usr/bin/python 
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 i = 0
 while i < 1:
@@ -20,7 +20,7 @@ while i < 1:
         cmd = A + ' ' + GUI
         info = str(cmd)
         res = os.popen(info)
-        txt = res.read()
+        txt = res.read().decode(encoding="utf-8", errors="ignore")
         print(txt)
     elif N == 3:
         cookie = str(input("请输入该视频cookie的路径\n"))
@@ -51,6 +51,6 @@ while i < 1:
         cmd = A + ' ' + GUI
         info = str(cmd)
         res = os.popen(info)
-        txt = res.read()
+        txt = res.read().decode(encoding="utf-8", errors="ignore")
         print(txt)
     i = int(input("1退出，0继续\n"))
