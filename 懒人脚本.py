@@ -34,13 +34,13 @@ while i < 1:
         VIP = int(input("该视频是否需要VIP(1=是，0等于否)\n"))
         if VIP == 0:
             A    = 'you-get -o'
-            cmd  = A + ' D:\lenovo\Videos ' + URL  # 若要修改储存位置请替换注意前后都有空格
+            cmd  = A + ' D:\Videos ' + URL  # 若要修改储存位置请替换注意前后都有空格
             info = str(cmd)
             os.system(info)
         else:
             cookie = str(input("请输入该视频cookie的路径\n"))
             A      = 'you-get -c=' + cookie + '-o'
-            cmd    = A + ' D:\lenovo\Videos ' + URL  # 若要修改储存位置请替换注意前后都有空格
+            cmd    = A + ' D:\Videos ' + URL  # 若要修改储存位置请替换注意前后都有空格
             info   = str(cmd)
             os.system(info)
     else:
