@@ -32,7 +32,7 @@
 这一条展示无法使用，等待修复
   
 ### 下载视频:  
-显示多个清晰度的信息  
+下载视频  
 ![模式4](https://github.com/DSN2002/-youget-mpv-python-/blob/main/%E8%A1%A8%E7%A4%BA/mod%204.png)  
   
 ### 解析url下的文件信息:  
