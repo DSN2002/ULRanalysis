@@ -1,7 +1,7 @@
 # 用python来联动mpv与youget指令
 有没有觉得用you-get指令来看视频很麻烦，只输入url不好吗？现在就有这样一个懒人包来帮助你完成除了输入url之外的所有事，当然你要输入几个数字。
 ## 大体介绍  
-这个脚本需要mpv和python youget指令的支持，通过调用cmd或powershell来做到自动完成以下操作：  
+这个脚本需要mpv和python youget指令的支持，通过调用cmd或powershell来做到自动完操作    
 对于上传的mpv.conf和input.conf是mpv的配置文件，已经写好了相应的注释，其中input.conf中有Anime4K的快捷键，若是想使用Anime4K请查看Anime4K官方的说明  
   
 ## 更新日志： 
@@ -24,10 +24,11 @@
 ~~4，下载非会员或会员(需要cookie)观看的视频~~  
 5，解析url下所有文件的信息  
   
-##已知问题：  
+## 已知问题：  
 1.下载有非常多集数的视频会报错，在未来某个版本可能解决  
-2，以-c加载的cookies下载剧集可能会出现错误(网络问题？？？)
-3，待发现...  
+2，以-c加载的cookies下载剧集可能会出现错误(网络问题？？？)  
+3，当URL中出现&等python的保留字时会报错(可能是python无法将分号输入power shell或cmd所致)
+4，待发现...  
 
 ## 用到的所有程序的官方连接如下：  
 ### [Anime4K](https://github.com/bloc97/Anime4K)  
