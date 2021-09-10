@@ -35,7 +35,8 @@
 ### [Anime4K](https://github.com/bloc97/Anime4K)  
 ### [you-get](https://github.com/soimort/you-get)  
 ### [mpv](https://mpv.io/)  
-### [you-get与Anime4K的使用方法blibli](https://www.bilibili.com/read/cv12828208)
+### [you-get与Anime4K的使用方法blibli](https://www.bilibili.com/read/cv12828208)  
+### [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
   
 ## 各个模式的展示:  
