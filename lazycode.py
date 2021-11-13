@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #* Author: DSN2002
 #* Date: 2021-11-12 17:40
-#* LastEditTime: 2021-11-13 15:49
+#* LastEditTime: 2021-11-13 18:42
 #* LastEditors: DSN2002
 #* Description:
 #* 仅供研究使用，请勿用于其他活动
@@ -52,7 +52,7 @@ while n > 0:
                 i = i + 1
             else:
                 break
-    ulr = ulr[0:i]
+        ulr = ulr[0:i]
     ulr = ulr.encode('ascii')            #* 将ulr转为C.dll能识别的ASCII码
 
 ## 用mpv观看 模式一
