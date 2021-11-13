@@ -1,3 +1,2 @@
 2.1.0
-https://raw.githubusercontent.com/DSN2002/lazycode/cese/version/version.txt
-https://github.com/DSN2002/lazycode/releases/download/ULRanalysis/ULRanalysis.exe
+https://gitee.com/DSN2002/ULRanalysis/blob/cese/version/version.txt
